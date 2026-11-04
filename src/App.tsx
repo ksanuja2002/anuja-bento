@@ -1,11 +1,12 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { Youtube, Play, Loader2 } from 'lucide-react'
 import {
-  SiX, SiInstagram, SiTiktok, SiYoutube, SiGithub, SiGitlab, SiLinkedin,
+  SiX, SiInstagram, SiTiktok, SiYoutube, SiGithub, SiGitlab,
   SiFacebook, SiTwitch, SiDribbble, SiMedium, SiDevdotto, SiReddit,
   SiPinterest, SiThreads, SiBluesky, SiMastodon, SiSubstack, SiPatreon,
   SiKofi, SiBuymeacoffee, SiSnapchat, SiDiscord, SiTelegram, SiWhatsapp,
 } from 'react-icons/si'
+import { FaLinkedin as SiLinkedin } from 'react-icons/fa'
 import { Globe, Link as LinkIcon } from 'lucide-react'
 import type { IconType } from 'react-icons'
 import type { LucideIcon } from 'lucide-react'
